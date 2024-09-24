@@ -25,5 +25,9 @@ public class Constuctor {
 
     }
 
+    public void information(){
+        System.out.println("The size is "+h*l*w);
+    }
+
 
 }

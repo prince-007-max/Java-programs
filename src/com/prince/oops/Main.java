@@ -8,12 +8,13 @@ public class Main {
         System.out.println(prince.name);
         System.out.println(Human.population);
 
-        Constuctor size = new Constuctor();
         Constuctor size1 = new Constuctor(12,14);
-        Constuctor size2 = new Constuctor(size);
+
 
         System.out.println(size1.h);
 
-        System.out.println(size2.w);
+        Box size = new Box(12,15,20,40);
+        size.information();
+
     }
 }
