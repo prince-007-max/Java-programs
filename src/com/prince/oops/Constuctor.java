@@ -24,6 +24,11 @@ public class Constuctor {
         this.w = old.w;
 
     }
+    Constuctor (double a, double b , double c){
+        this.h = a;
+        this.l = b;
+        this.w = c;
+    }
 
     public void information(){
         System.out.println("The size is "+h*l*w);

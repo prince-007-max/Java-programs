@@ -10,4 +10,15 @@ public class Box extends Constuctor{
         this.weight = w;
 
     }
+
+    Box (double a, double b, double weight){
+        this.h = a;
+        this.l = b;
+    }
+
+
+    Box (Box other){
+        super(other);
+        this.weight = other.weight;
+    }
 }
