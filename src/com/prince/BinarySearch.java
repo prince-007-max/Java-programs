@@ -7,9 +7,22 @@ public class BinarySearch {
         int ans = Bg(arr, target, 0, arr.length - 1);
         System.out.println(ans);
 
+        // BinarySearch B1 = new BinarySearch();
+        // int ans = B1.add(10, 5);
+
+        // System.out.println(ans);
+    
+
 
 
     }
+
+    // int add(int a, int b){
+
+    //     return a + b ;
+
+    // }
+
 
     static int Bg(int[] arr,int target,int start,int end){
 
@@ -29,7 +42,5 @@ public class BinarySearch {
             return Bg(arr, target, start, mid-1);
         }
 
-
-    }
 
 }

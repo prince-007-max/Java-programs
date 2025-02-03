@@ -7,6 +7,12 @@ public class Array {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        int a = 10;
+        a= 20;
+        System.out.println(a);
+
+
+
 //        int[] arr = new int[10];
 
 //        for (int i = 0; i < 10; i++) {
@@ -35,21 +41,21 @@ public class Array {
 //        System.out.println(Arrays.toString(n));
           int[][] arr = new int[2][2];
         //it is row of matexis
-        for (int row = 0; row < 2; row++) {
-            //it is column
-            for (int col = 0; col < 2; col++) {
-                arr[row][col] = sc.nextInt();
-            }
+        // for (int row = 0; row < 2; row++) {
+        //     //it is column
+        //     for (int col = 0; col < 2; col++) {
+        //         arr[row][col] = sc.nextInt();
+        //     }
 
-        }
+        // }
 
-        for (int row = 0; row < 2; row++) {
-            //it is column
-            for (int col = 0; col < 2; col++) {
-                System.out.println(arr[row][col]);
-            }
+        // for (int row = 0; row < 2; row++) {
+        //     //it is column
+        //     for (int col = 0; col < 2; col++) {
+        //         System.out.println(arr[row][col]);
+        //     }
 
-        }
+        // }
 
     }
 

@@ -20,5 +20,8 @@ public class Main {
 
 //        size.information();
 
+        absratson son = new absratson(18);
+        son.car();
+
     }
 }
