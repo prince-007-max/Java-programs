@@ -1,37 +1,32 @@
 package com.prince.oops;
 
-abstract class Computer{
-    public abstract void code();
-}
 
-
-class laptop extends Computer{
+class laptop{
     public void code(){
         System.out.println("The code is running by laptop");
     }
 }
 
-class desktop extends Computer{
+class desktop{
     public void code(){
         System.out.println("The code is running by desktop");
     }
 }
 
 class developer{
-    public void developer(Computer lab){
+    public void developer(laptop lab){
         lab.code();
     }
 }
 
 
 
-public class absrat {
+public class absrat1 {
 
     public static void main(String[] args) {
-        Computer lap = new laptop();
+        laptop lap = new laptop();
 
         desktop des = new desktop();
-
         developer dev = new developer();
 
         dev.developer(lap);
